@@ -1,0 +1,27 @@
+body {
+  background-image: url(assets/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.digital-clock-container {
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+  width: 100vw;
+  padding: 10px 0;
+}
+
+.digital-clock {
+  font-family: monospace;
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 3px 5px hlsa(0, 0%, 0%, 0.75);
+}
