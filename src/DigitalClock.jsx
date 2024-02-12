@@ -32,6 +32,7 @@ function DigitalClock() {
     };
   }, [time]);
 
+  // Clean up
   const padZero = (number) => {
     return (number < 10 ? "0" : "") + number;
   };
